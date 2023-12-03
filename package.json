@@ -1,0 +1,45 @@
+{
+  "name": "@gooddollar/react-native-facetec",
+  "title": "React Native module that integrates FaceTec face verification API",
+  "version": "1.0.32",
+  "description": "React Native module that integrates FaceTec face verification API",
+  "main": "index.js",
+  "files": [
+    "src",
+    "web",
+    "index.js",
+    "android",
+    "ios",
+    "react-native-facetec.podspec",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "version": "auto-changelog -p && git add CHANGELOG.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoodDollar/ReactNativeFaceTec.git",
+    "baseUrl": "https://github.com/GoodDollar/ReactNativeFaceTec"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": {
+    "name": "Good Dollar",
+    "email": "builders@gooddollar.org"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "auto-changelog": "^2.2.1",
+    "react": "^16.14.0",
+    "react-native": "^0.61.5"
+  },
+  "peerDependencies": {
+    "react": "^16.14.0",
+    "react-native": "^0.61.5"
+  }
+}
